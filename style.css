@@ -9,7 +9,7 @@ header{height:62px;background:#fffaf1;border-bottom:1px solid var(--line);displa
 .logo{font-family:"Cormorant Garamond",serif;font-size:25px;letter-spacing:5px}
 nav{display:flex;gap:30px;font-size:10px;letter-spacing:1.7px;text-transform:uppercase}
 nav a:hover{color:#9a5c32}
-.hero{min-height:650px;background:url("assets/IMG_0178.webp") center/cover;display:flex;align-items:flex-start;padding:42px 8% 70px;position:relative}
+.hero{min-height:650px;background:url("assets/RenderedImage.webp") center/cover;display:flex;align-items:flex-start;padding:42px 8% 70px;position:relative}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,16,6,.18),transparent 70%)}
 .hero-content{position:relative;color:#fff;text-shadow:0 2px 14px #3b1f0e}
 .kicker{max-width:560px;font:500 52px/1.02 "Cormorant Garamond",serif;color:#fff7df;text-shadow:0 2px 12px #24150eb8;margin-bottom:16px}
