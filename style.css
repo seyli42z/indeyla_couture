@@ -18,9 +18,10 @@ h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px}
 .section{padding:75px 7%}
 .title{text-align:center;font:500 42px "Cormorant Garamond",serif;margin-bottom:35px}
 .collections-banner{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.home-collection{display:block;overflow:hidden;border-radius:12px;background:var(--paper);box-shadow:0 14px 35px #6b43251c}
-.home-collection img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 45%;transition:transform .5s ease}
+.home-collection{display:block;overflow:hidden;border:10px solid #fff;border-radius:12px;background:#fff;box-shadow:0 14px 35px #6b43251c}
+.home-collection img{display:block;width:100%;aspect-ratio:7/12;object-fit:cover;object-position:center;transition:transform .5s ease}
 .home-collection:hover img{transform:scale(1.035)}
+.home-collection-title{display:block;padding:10px 4px 4px;text-align:center;font:500 23px "Cormorant Garamond",serif}
 .cards{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .card{background:#fff8eb;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 8px 22px #6b432518}
 .card-img{display:block;width:100%;aspect-ratio:7/12;object-fit:cover;object-position:center}
