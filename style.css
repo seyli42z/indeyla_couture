@@ -17,7 +17,10 @@ h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px}
 .subtitle{font-size:11px;letter-spacing:5px}
 .section{padding:75px 7%}
 .title{text-align:center;font:500 42px "Cormorant Garamond",serif;margin-bottom:35px}
-.collections-banner{max-width:1100px;height:430px;margin:auto;border-radius:15px;background:url("assets/collections.jpg") center/cover;box-shadow:0 14px 35px #6b43251c}
+.collections-banner{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.home-collection{display:block;overflow:hidden;border-radius:12px;background:var(--paper);box-shadow:0 14px 35px #6b43251c}
+.home-collection img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 45%;transition:transform .5s ease}
+.home-collection:hover img{transform:scale(1.035)}
 .cards{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .card{background:#fff8eb;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 8px 22px #6b432518}
 .card-img{height:310px;background:url("assets/collections.jpg") center/cover}
@@ -50,7 +53,7 @@ footer{background:#fff7e9;border-top:1px solid var(--line);padding:50px 7%}
 @media(max-width:700px){
  header{height:auto;padding:12px 5%;align-items:flex-start;gap:10px}.logo{font-size:19px}.nav{gap:10px;justify-content:flex-end;flex-wrap:wrap;font-size:7px}
  .hero{min-height:520px;padding:0 7% 50px}h1{font-size:47px;letter-spacing:5px}.kicker{font-size:8px}.subtitle{font-size:8px}
- .section{padding:48px 6%}.title{font-size:33px}.collections-banner{height:300px}
+ .section{padding:48px 6%}.title{font-size:33px}.collections-banner{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:8px}.home-collection{flex:0 0 82%;scroll-snap-align:start}
  .cards,.about-grid,.footer-grid{grid-template-columns:1fr}.about-img{min-height:260px}
  .about-text h2,.contact h2{font-size:42px}
 }
