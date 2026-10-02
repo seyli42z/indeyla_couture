@@ -9,7 +9,7 @@ header{height:62px;background:#fffaf1;border-bottom:1px solid var(--line);displa
 .logo{font-family:"Cormorant Garamond",serif;font-size:25px;letter-spacing:5px}
 nav{display:flex;gap:30px;font-size:10px;letter-spacing:1.7px;text-transform:uppercase}
 nav a:hover{color:#9a5c32}
-.hero{min-height:650px;background:url("assets/IMG_0178.webp") center/cover;display:flex;align-items:flex-end;padding:0 8% 70px;position:relative}
+.hero{min-height:650px;background:url("assets/RenderedImage.webp") center/cover;display:flex;align-items:flex-end;padding:0 8% 70px;position:relative}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,16,6,.18),transparent 70%)}
 .hero-content{position:relative;color:#fff;text-shadow:0 2px 14px #3b1f0e}
 .kicker{font-size:11px;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
@@ -32,7 +32,7 @@ h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px}
 .btn:hover{background:var(--brown);color:#fff}
 .about{background:#f6e9d5}
 .about-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
-.about-img{min-height:430px;background:url("assets/IMG_0179.webp") center/cover;border-radius:6px}
+.about-img{min-height:430px;background:url("assets/RenderedImage.webp") center/cover;border-radius:6px}
 .about-text h2{font:500 52px "Cormorant Garamond",serif;margin-bottom:18px}
 .about-text p{font-size:13px;line-height:2}
 .contact{max-width:850px;margin:auto;text-align:center}
@@ -45,7 +45,7 @@ h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px}
 .form button:hover{background:var(--brown);color:#fff}
 footer{background:#fff7e9;border-top:1px solid var(--line);padding:50px 7%}
 .footer-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
-.footer-img{min-height:190px;background:url("assets/IMG_0179.webp") center/cover;border-radius:12px}
+.footer-img{min-height:190px;background:url("assets/RenderedImage.webp") center/cover;border-radius:12px}
 .small{font-size:10px;line-height:2.1}
 .social{display:flex;gap:18px;margin-top:15px;font-size:10px}
 @media(max-width:700px){
