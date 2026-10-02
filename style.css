@@ -9,9 +9,9 @@ header{height:62px;background:#fffaf1;border-bottom:1px solid var(--line);displa
 .logo{font-family:"Cormorant Garamond",serif;font-size:25px;letter-spacing:5px}
 nav{display:flex;gap:30px;font-size:10px;letter-spacing:1.7px;text-transform:uppercase}
 nav a:hover{color:#9a5c32}
-.hero{min-height:650px;background:url("assets/IMG_0178.webp") center/cover;display:flex;align-items:flex-end;padding:0 8% 70px;position:relative}
+.hero{min-height:650px;background:url("assets/RenderedImage.webp") center/cover;display:flex;align-items:flex-start;padding:42px 8% 70px;position:relative}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,16,6,.18),transparent 70%)}
-.hero-content{position:relative;color:#fff;text-shadow:0 2px 14px #3b1f0e;transform:translateY(-150px)}
+.hero-content{position:relative;color:#fff;text-shadow:0 2px 14px #3b1f0e}
 .kicker{font-size:11px;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
 h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px;color:#fff7df;text-shadow:0 1px 0 #f0d8a0,0 2px 0 #d2ad69,0 3px 0 #ae8246,0 4px 0 #76532e,0 8px 14px #1d100ab3;transform:perspective(700px) rotateX(5deg);transform-origin:center bottom}
 .subtitle{font-size:11px;letter-spacing:5px}
@@ -50,7 +50,7 @@ footer{background:#fff7e9;border-top:1px solid var(--line);padding:50px 7%}
 .social{display:flex;gap:18px;margin-top:15px;font-size:10px}
 @media(max-width:700px){
  header{height:auto;padding:12px 5%;align-items:flex-start;gap:10px}.logo{font-size:19px}.nav{gap:10px;justify-content:flex-end;flex-wrap:wrap;font-size:7px}
- .hero{min-height:520px;padding:0 7% 50px}.hero-content{transform:translateY(-100px)}h1{font-size:47px;letter-spacing:5px}.kicker{font-size:8px}.subtitle{font-size:8px}
+ .hero{min-height:520px;padding:20px 7% 50px}.hero-content{transform:none}h1{font-size:47px;letter-spacing:5px}.kicker{font-size:8px}.subtitle{font-size:8px}
  .section{padding:48px 6%}.title{font-size:33px}.collections-banner{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:8px}.home-collection{flex:0 0 82%;scroll-snap-align:start}
  .cards,.about-grid,.footer-grid{grid-template-columns:1fr}.about-img{min-height:260px}
  .about-text h2,.contact h2{font-size:42px}
