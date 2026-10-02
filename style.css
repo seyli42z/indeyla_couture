@@ -20,7 +20,10 @@ h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px}
 .collections-banner{max-width:1100px;height:430px;margin:auto;border-radius:15px;background:url("assets/collections.jpg") center/cover;box-shadow:0 14px 35px #6b43251c}
 .cards{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .card{background:#fff8eb;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 8px 22px #6b432518}
-.card-img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 45%}
+.card-img{height:310px;background:url("assets/collections.jpg") center/cover}
+.card:nth-child(1) .card-img{background-position:left center}
+.card:nth-child(2) .card-img{background-position:center center}
+.card:nth-child(3) .card-img{background-position:right center}
 .card-body{padding:18px;text-align:center}
 .card h3{font:500 25px "Cormorant Garamond",serif}
 .card p{font-size:11px;line-height:1.7;margin-top:7px}
