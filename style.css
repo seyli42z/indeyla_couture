@@ -13,6 +13,7 @@ nav a:hover{color:#9a5c32}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,16,6,.18),transparent 70%)}
 .hero-content{position:relative;color:#fff;text-shadow:0 2px 14px #3b1f0e}
 .kicker{max-width:560px;font:500 52px/1.02 "Cormorant Garamond",serif;color:#fff7df;text-shadow:0 2px 12px #24150eb8;margin-bottom:16px}
+.hero-brand{font-family:Montserrat,Arial,sans-serif;font-weight:300;letter-spacing:5px}
 .hero h1{font:500 76px "Cormorant Garamond",serif;letter-spacing:9px;color:#fff7df;text-shadow:0 1px 0 #f0d8a0,0 2px 0 #d2ad69,0 3px 0 #ae8246,0 4px 0 #76532e,0 8px 14px #1d100ab3;transform:perspective(700px) rotateX(5deg);transform-origin:center bottom}
 .subtitle{font-size:11px;letter-spacing:5px}
 .section{padding:75px 7%}
