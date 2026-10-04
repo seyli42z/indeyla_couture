@@ -31,6 +31,8 @@ nav a:hover{color:#9a5c32}
 .card-body{padding:18px;text-align:center}
 .card h3{font:500 25px "Cormorant Garamond",serif}
 .card p{font-size:11px;line-height:1.7;margin-top:7px}
+.info-details summary{list-style:none;cursor:pointer}
+.info-details summary::-webkit-details-marker{display:none}
 .card .size-title{margin-top:12px}
 .size-list{list-style:none;font-size:11px;line-height:1.8;margin-top:4px}
 .btn{display:inline-block;margin-top:18px;border:1px solid var(--brown);padding:11px 21px;font-size:9px;letter-spacing:1.8px;text-transform:uppercase;transition:.25s}
