@@ -259,7 +259,8 @@ nav a:hover::after {
 }
 
 .full-length-photo,
-.product-gallery.full-length-gallery img {
+.product-gallery.full-length-gallery img,
+.product-gallery img.full-length-photo {
   background: var(--cream);
   object-fit: contain;
 }
