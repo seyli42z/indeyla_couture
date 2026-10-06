@@ -231,7 +231,7 @@ nav a:hover::after {
 .cards {
   display: grid;
   max-width: 1120px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
   gap: clamp(18px, 2.5vw, 30px);
   margin: auto;
 }
@@ -543,16 +543,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .card:last-child {
-    grid-column: 1 / -1;
-    width: calc(50% - 12px);
-    justify-self: center;
-  }
-
   .about-img {
     min-height: 360px;
   }
@@ -632,11 +622,6 @@ footer {
     grid-template-columns: 1fr;
     gap: 22px;
     max-width: 460px;
-  }
-
-  .card:last-child {
-    width: 100%;
-    grid-column: auto;
   }
 
   .card-img {
