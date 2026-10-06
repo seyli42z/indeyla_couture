@@ -258,6 +258,12 @@ nav a:hover::after {
   object-position: center;
 }
 
+.full-length-photo,
+.product-gallery.full-length-gallery img {
+  background: var(--cream);
+  object-fit: contain;
+}
+
 .card-body {
   padding: 24px 20px 27px;
   text-align: center;
@@ -292,6 +298,12 @@ nav a:hover::after {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(12px, 2vw, 22px);
+}
+
+.full-length-gallery {
+  max-width: 430px;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 0 auto;
 }
 
 .product-gallery img {
